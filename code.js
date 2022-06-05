@@ -1,6 +1,6 @@
 function f(c, p, b) { // computes (c^p) modulo b
     let ans = 1;
-    for(let i = 0;i < power;i++) {
+    for(let i = 0;i < p;i++) {
         ans *= c;
         ans %= b;
     }
